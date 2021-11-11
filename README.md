@@ -12,3 +12,5 @@ https://reinholz36.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Dani Reinholz
+
+### ©️2019 Run Buddy, Inc
