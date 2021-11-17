@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +12,7 @@
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -32,7 +38,7 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #fce138;
+    color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -62,7 +68,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: #fce138;
-    color: #024e76;
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
 }
